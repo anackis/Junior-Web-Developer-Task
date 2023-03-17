@@ -1,6 +1,7 @@
 # Junior-Mid-recruiting-task
 
-My First junior Web Dev applying test
+My First junior Web Dev applying test.
+
 It is pixel perfect figma loyaut form with validation and responsive css.
 
 ![localhost_3000_](https://user-images.githubusercontent.com/61510461/225887653-d9178e4a-ba75-47e2-9f14-9bb15ef97376.png)
