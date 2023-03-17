@@ -1,4 +1,4 @@
-# Junior-Mid-recruiting-task
+# Junior-recruiting-task
 
 My First junior Web Dev applying test.
 
