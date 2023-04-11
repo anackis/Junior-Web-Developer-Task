@@ -2,12 +2,10 @@ import './App.css';
 import './responsive.css';
 import React from "react";
 import {useState} from 'react';
-import { Formik, Form, useFormik } from 'formik'
-import * as yup from "yup";
+import { useFormik } from 'formik'
 import { basicSchema } from "./schemas/index"
 import logo from './assets/img/main/logo.svg';
 import mobilelogo from './assets/img/main/mobile_logo.svg';
-import arrow from './assets/img/main/arrow.svg';
 import success from './assets/img/main/success.svg';
 
 
@@ -15,12 +13,12 @@ function App() {
   const [headerText, setHeaderText] = useState('Subscribe to newsletter');
   const [text, setText] = useState('Subscribe to our newsletter and get 10% discount on pineapple glasses.');
   const [hideIcon, setHideIcon] = useState('true');
-  function handleClick(e) {
-    e.preventDefault();
-    setHeaderText('Thanks for subscribing!');
-    setText('You have successfully subscribed to our email listing. Check your email for the discount code.');
-    setHideIcon(false);
-  }
+  // function handleClick(e) {
+  //   e.preventDefault();
+  //   setHeaderText('Thanks for subscribing!');
+  //   setText('You have successfully subscribed to our email listing. Check your email for the discount code.');
+  //   setHideIcon(false);
+  // }
 
   const onSubmit = async (values, actions) => {
   // console.log(values);
