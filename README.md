@@ -1,6 +1,6 @@
 # Junior-recruiting-task
 
-My First junior Web Dev applying test.
+Junior Web Dev applying test.
 
 It is pixel perfect form figma loyaut with validation and responsive css.
 
